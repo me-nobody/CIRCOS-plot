@@ -1,0 +1,2 @@
+chr - 	sal1     chr1     1       4860000      black
+chr - 	sal2     pSLT     1         90000      red
