@@ -1,0 +1,206 @@
+LOCUS       NC_003197               4238 bp    DNA     linear   CON 28-SEP-2017
+DEFINITION  Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,
+            complete genome.
+ACCESSION   NC_003197 REGION: 4370012..4374249
+VERSION     NC_003197.2
+DBLINK      BioProject: PRJNA57799
+            BioSample: SAMN02604315
+            Assembly: GCF_000006945.2
+KEYWORDS    RefSeq.
+SOURCE      Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+  ORGANISM  Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (bases 1 to 4238)
+  AUTHORS   McClelland,M., Sanderson,K.E., Spieth,J., Clifton,S.W.,
+            Latreille,P., Courtney,L., Porwollik,S., Ali,J., Dante,M., Du,F.,
+            Hou,S., Layman,D., Leonard,S., Nguyen,C., Scott,K., Holmes,A.,
+            Grewal,N., Mulvaney,E., Ryan,E., Sun,H., Florea,L., Miller,W.,
+            Stoneking,T., Nhan,M., Waterston,R. and Wilson,R.K.
+  TITLE     Complete genome sequence of Salmonella enterica serovar Typhimurium
+            LT2
+  JOURNAL   Nature 413 (6858), 852-856 (2001)
+   PUBMED   11677609
+REFERENCE   2  (bases 1 to 4238)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-DEC-2016) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 4238)
+  AUTHORS   McClelland,M., Jain,A., Saraogi,P., Mendelson,R., Westerman,R.,
+            SanMiguel,P. and Csonka,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JAN-2016) Department of Microbiology and Molecular
+            Genetics, University of California, Irvine, CA 92697, USA
+  REMARK    Sequence update by submitter
+REFERENCE   4  (bases 1 to 4238)
+  CONSRTM   The Salmonella typhimurium Genome Sequencing Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-MAR-2001) Genome Sequencing Center, Department of
+            Genetics, Washington University School of Medicine, 4444 Forest
+            Park Boulevard, St. Louis, MO 63108, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to AE006468.
+            On Dec 2, 2016 this sequence version replaced NC_003197.1.
+            RefSeq Category: Reference Genome
+                        CLI: Clinical Isolate
+                        MOD: Model Organism
+                        PRT: Proteomics
+                        TYS: Designated Type Strain
+                        UPR: UniProt Genome
+            Supported by NIH grant 5U 01 AI43283
+            
+            Coding sequences below are predicted from manually evaluated
+            computer analysis, using similarity information and the programs;
+            GLIMMER; http://www.tigr.org/softlab/glimmer/glimmer.html and
+            GeneMark; http://opal.biology.gatech.edu/GeneMark/
+            
+            EC numbers were kindly provided by Junko Yabuzaki and the Kyoto
+            Encyclopedia of Genes and Genomes; http://www.genome.ad.jp/kegg/,
+            and Pedro Romero and Peter Karp at EcoCyc;
+            http://ecocyc.PangeaSystems.com/ecocyc/
+            
+            The analyses of ribosome binding sites and promoter binding sites
+            were kindly provided by Heladia Salgado, Julio Collado-Vides and
+            ReguonDB;
+            http://kinich.cifn.unam.mx:8850/db/regulondb_intro.frameset
+            
+            This sequence was finished as follows unless otherwise noted: all
+            regions were double stranded, sequenced with an alternate
+            chemistries or covered by high quality data (i.e., phred quality >=
+            30); an attempt was made to resolve all sequencing problems, such
+            as compressions and repeats; all regions were covered by sequence
+            from more than one m13 subclone.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4238
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Typhimurium str. LT2"
+                     /mol_type="genomic DNA"
+                     /strain="LT2; SGSC 1412; ATCC 700720"
+                     /serovar="Typhimurium"
+                     /sub_species="enterica"
+                     /culture_collection="ATCC:700720"
+                     /type_material="type strain of Salmonella enterica"
+                     /db_xref="taxon:99287"
+                     /focus
+     gene            1..4238
+                     /gene="rpoC"
+                     /locus_tag="STM4154"
+                     /db_xref="GeneID:1255680"
+     regulatory      1..6
+                     /regulatory_class="ribosome_binding_site"
+                     /gene="rpoC"
+                     /locus_tag="STM4154"
+                     /note="putative RBS for rpoC; RegulonDB:STMS1H004071"
+     CDS             15..4238
+                     /gene="rpoC"
+                     /locus_tag="STM4154"
+                     /EC_number="2.7.7.6"
+                     /note="similar to E. coli RNA polymerase, beta prime
+                     subunit (AAC76962.1); Blastp hit to AAC76962.1 (1407 aa),
+                     98% identity in aa 1 - 1407"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA-directed RNA polymerase subunit beta'"
+                     /protein_id="NP_463023.1"
+                     /db_xref="GeneID:1255680"
+                     /translation="MKDLLKFLKAQTKTEEFDAIKIALASPDMIRSWSFGEVKKPETI
+                     NYRTFKPERDGLFCARIFGPVKDYECLCGKYKRLKHRGVICEKCGVEVTQTKVRRERM
+                     GHIELASPTAHIWFLKSLPSRIGLLLDMPLRDIERVLYFESYVVIEGGMTNLERQQIL
+                     TEEQYLDALEEFGDEFDAKMGAEAIQALLKSMDLEQECETLREELNETNSETKRKKLT
+                     KRIKLLEAFVQSGNKPEWMILTVLPVLPPDLRPLVPLDGGRFATSDLNDLYRRVINRN
+                     NRLKRLLDLAAPDIIVRNEKRMLQEAVDALLDNGRRGRAITGSNKRPLKSLADMIKGK
+                     QGRFRQNLLGKRVDYSGRSVITVGPYLRLHQCGLPKKMALELFKPFIYGKLELRGLAT
+                     TIKAAKKMVEREEAVVWDILDEVIREHPVLLNRAPTLHRLGIQAFEPVLIEGKAIQLH
+                     PLVCAAYNADFDGDQMAVHVPLTLEAQLEARALMMSTNNILSPANGEPIIVPSQDVVL
+                     GLYYMTRDCVNAKGEGMVLTGPKEAERIYRAGLASLHARVKVRITEYEKDENGEFVAH
+                     TSLKDTTVGRAILWMIVPKGLPFSIVNQALGKKAISKMLNTCYRILGLKPTVIFADQT
+                     MYTGFAYAARSGASVGIDDMVIPEKKHEIISEAEAEVAEIQEQFQSGLVTAGERYNKV
+                     IDIWAAANDRVSKAMMDNLQTETVINRDGQEEQQVSFNSIYMMADSGARGSAAQIRQL
+                     AGMRGLMAKPDGSIIETPITANFREGLNVLQYFISTHGARKGLADTALKTANSGYLTR
+                     RLVDVAQDLVVTEDDCGTHEGILMTPVIEGGDVKEPLRDRVLGRVTAEDVLKPGTADI
+                     LVPRNTLLHEQWCDLLEANSVDAVKVRSVVSCDTDFGVCAHCYGRDLARGHIINKGEA
+                     IGVIAAQSIGEPGTQLTMRTFHIGGAASRAAAESSIQVKNKGSIKLSNVKSVVNSSGK
+                     LVITSRNTELKLIDEFGRTKESYKVPYGAVMAKGDGEQVAGGETVANWDPHTMPVITE
+                     VSGFIRFTDMIDGQTITRQTDELTGLSSLVVLDSAERTTGGKDLRPALKIVDAQGNDV
+                     LIPGTDMPAQYFLPGKAIVQLEDGVQISSGDTLARIPQESGGTKDITGGLPRVADLFE
+                     ARRPKEPAILAEIAGIVSFGKETKGKRRLVITPVDGSDPYEEMIPKWRQLNVFEGERV
+                     ERGDVISDGPEAPHDILRLRGVHAVTRYIVNEVQDVYRLQGVKINDKHIEVIVRQMLR
+                     KATIESAGSSDFLEGEQVEYSRVKIANRELEANGKVGATFSRDLLGITKASLATESFI
+                     SAASFQETTRVLTEAAVAGKRDELRGLKENVIVGRLIPAGTGYAYHQDRMRRRAAGEQ
+                     PATPQVTAEDASASLAELLNAGLGGSDNE"
+ORIGIN      
+        1 acgggagcaa atccgtgaaa gatttattaa agtttctgaa agcgcagact aaaaccgaag
+       61 agtttgatgc gatcaaaatt gctctggctt cgccagacat gatccgttca tggtctttcg
+      121 gtgaagttaa aaagccggaa accatcaact accgtacgtt caaacctgag cgtgacggcc
+      181 ttttctgcgc ccgtatcttt gggccggtaa aagactacga gtgcctgtgc ggtaagtaca
+      241 agcgcctgaa acatcgtggt gttatttgtg agaagtgcgg cgttgaagtg acccagacca
+      301 aagtacgccg tgagcgtatg ggccacatcg agctagcgtc cccgactgct cacatctggt
+      361 tcctgaaatc gctgccgtcc cgtatcggtc tgctgctcga tatgccgctg cgcgatatcg
+      421 aacgcgtact gtacttcgaa tcttatgtgg ttatcgaagg cggtatgacc aacctggaac
+      481 gtcaacagat cctgactgaa gagcagtatc tggacgcgct ggaagagttc ggtgacgaat
+      541 tcgacgcgaa gatgggggcg gaagctatcc aggccctgct gaagagcatg gatctggagc
+      601 aagagtgtga aactctgcgc gaagagctga acgaaaccaa ctccgaaacc aagcgtaaaa
+      661 agctgaccaa gcgtatcaaa ctgctggaag ccttcgttca gtctggcaac aagccagagt
+      721 ggatgatcct gaccgttctg ccggttctgc cgccagatct gcgtccgctg gttccgctgg
+      781 atggtggtcg tttcgccacg tcagatctga acgatctgta tcgtcgcgtc attaaccgta
+      841 acaaccgtct gaagcgtctg ctggatctgg ctgcgccgga catcatcgta cgcaacgaaa
+      901 aacgtatgct gcaggaagcg gttgacgccc tgttggataa cggtcgtcgc ggtcgtgcga
+      961 tcaccggttc taacaagcgt cctctgaaat ctttggccga catgatcaaa ggtaagcagg
+     1021 gtcgtttccg tcagaacctg ctcggtaagc gtgttgacta ctccggtcgt tctgtaatca
+     1081 ccgtaggtcc atacctgcgt ctgcaccagt gcggtctgcc gaagaaaatg gcgctggagc
+     1141 tgttcaaacc gttcatctac ggcaagctgg aactgcgtgg ccttgccacc accatcaaag
+     1201 ccgcgaagaa aatggttgag cgtgaagaag ctgtcgtttg ggatatcctt gacgaagtta
+     1261 tccgcgaaca cccggtactg ctgaaccgtg caccgactct gcaccgtctg ggtatccagg
+     1321 catttgaacc ggtactgatc gaaggtaaag ctatccagct gcacccgctg gtttgtgcgg
+     1381 catataacgc cgacttcgat ggtgaccaga tggctgttca cgtaccgctg acgctggaag
+     1441 cccagcttga agcgcgtgcg ctgatgatgt ctaccaacaa catcctgtct ccggcgaacg
+     1501 gcgaacctat catcgttccg tctcaggacg tggtattggg tctgtactac atgacccgtg
+     1561 actgtgttaa cgccaaaggc gaaggcatgg tgctgactgg cccgaaagaa gctgagcgta
+     1621 tctatcgcgc aggtctggcc tctctgcatg cgcgcgttaa agtgcgtatc actgaatatg
+     1681 aaaaagatga aaacggcgaa ttcgttgcgc acaccagcct gaaagacacg accgttggtc
+     1741 gcgccattct gtggatgatc gtaccgaaag gtctgccttt ctccatcgtc aaccaggcgc
+     1801 tgggcaagaa agcgatctcc aaaatgctga acacttgcta ccgtattctg ggcctgaaac
+     1861 cgaccgttat ttttgcggac cagacgatgt acaccggctt tgcttatgca gcgcgttcag
+     1921 gtgcgtccgt tggtattgat gacatggtca tcccggagaa aaaacacgag atcatctctg
+     1981 aggcggaagc tgaagttgct gagatccagg agcagttcca gtctggtctg gtaaccgctg
+     2041 gcgaacgcta taacaaagtt atcgatatct gggctgcggc gaacgatcgt gtatctaaag
+     2101 cgatgatgga taacctgcaa accgaaaccg tgattaaccg tgacggccag gaagagcagc
+     2161 aggtttcctt caacagcatc tacatgatgg ccgactccgg tgcgcgtggt tctgcggcac
+     2221 agattcgtca gcttgctggt atgcgtggtc tgatggcgaa gccggatggc tccatcatcg
+     2281 aaacgccaat caccgcgaac ttccgtgaag gtctgaacgt actccagtac ttcatctcca
+     2341 cccacggtgc gcgtaaaggt ctggcggata ccgcactgaa aaccgcgaac tccggttacc
+     2401 tgactcgtcg tctggttgac gtcgcgcagg atctggtagt gaccgaagat gactgtggta
+     2461 cgcacgaagg tatcctgatg accccggtta tcgagggtgg cgacgtgaaa gagccgctgc
+     2521 gtgaccgcgt tctgggtcgt gtgacggcgg aagatgtgct gaaaccgggt accgcggaca
+     2581 ttctggttcc acgcaacacg ctgctgcacg aacagtggtg tgacctgctg gaagcaaact
+     2641 ccgttgacgc cgttaaagtg cgttctgttg tatcctgcga caccgacttt ggtgtatgtg
+     2701 cgcactgcta tggccgtgac ctggcgcgtg gccacatcat caacaaaggt gaagctatcg
+     2761 gcgttatcgc ggcacagtcc atcggtgaac cgggtacaca gctgacgatg cgtacgttcc
+     2821 acatcggtgg tgcggcatcg cgtgcggctg ctgaatccag catccaggtt aagaacaaag
+     2881 gtagcatcaa gctcagcaac gtgaagtcgg ttgtgaactc cagcggtaaa ctggttatca
+     2941 cttctcgtaa caccgaactg aagctgatcg acgaattcgg tcgtaccaaa gagagctata
+     3001 aagtgcctta tggcgctgtc atggcgaaag gtgatggcga gcaggttgcc ggcggcgaaa
+     3061 ccgtggcaaa ctgggacccg cacaccatgc cggttatcac cgaagtgagt ggtttcatcc
+     3121 gcttcactga catgatcgac ggtcagacca ttacgcgtca gaccgacgaa ctgaccggtt
+     3181 tgtcttcgct ggtggttctg gattcggctg aacgtactac cggtggtaaa gatctgcgtc
+     3241 cggcgctgaa aatcgttgat gctcagggta atgacgttct gatcccgggt accgatatgc
+     3301 ctgcgcagta cttcctgccg ggtaaagcga ttgtacagct ggaagatggc gtacagatca
+     3361 gttctggtga caccctggcg cgtattcctc aggaatccgg cggtaccaag gatatcaccg
+     3421 gtggtctgcc gcgcgttgcg gacctgttcg aagcgcgtcg tccgaaagaa ccggccattc
+     3481 tggcggaaat cgcaggtatc gtttccttcg gtaaagaaac caaaggcaaa cgtcgtctgg
+     3541 tgattacgcc ggttgatggt agcgatccgt acgaagagat gattccgaaa tggcgtcagc
+     3601 tcaacgtgtt cgaaggggaa cgtgtagaac gtggtgatgt gatttccgac ggtccggaag
+     3661 cgccgcacga tattctgcgt ctgcgtggtg ttcatgctgt gacgcgttac atcgttaacg
+     3721 aagtccagga tgtataccgt ctgcagggcg ttaagattaa cgataaacac atcgaagtta
+     3781 tcgttcgtca gatgctgcgt aaagcgacca tcgaaagcgc cggtagttcc gacttcctgg
+     3841 aaggcgaaca ggttgaatat tcccgcgtca agatcgctaa ccgcgagctg gaagcgaacg
+     3901 gcaaagtggg ggctaccttc tcccgcgatc tgctgggtat caccaaagcg tctctggcaa
+     3961 ccgaatcgtt catctctgcc gcatcgttcc aggagaccac gcgtgtcctg accgaagcag
+     4021 ccgttgcggg taaacgcgac gaactgcgcg gcctgaaaga gaacgttatc gtggggcgtc
+     4081 tgatcccggc gggtaccggt tatgcgtacc accaggatcg tatgcgccgt cgcgccgcgg
+     4141 gcgagcagcc agcaacaccg caggtcactg cggaagatgc atctgcaagc ctggcagaac
+     4201 tgctgaacgc aggtctgggc ggttctgata acgagtaa
+//
+
